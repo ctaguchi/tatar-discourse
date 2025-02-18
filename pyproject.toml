@@ -25,6 +25,7 @@ pyctcdecode = "^0.5.0"
 # see: https://github.com/lucaspar/poetry-torch
 torch = {version = "^2.5.1", markers = "extra=='cpu' and extra!='cuda'"}
 torchaudio = {version = "^2.5.1", markers = "extra=='cpu' and extra!='cuda'"}
+pydub = "^0.25.1"
 
 
 [tool.poetry.group.cuda]

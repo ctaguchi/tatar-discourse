@@ -2442,6 +2442,17 @@ files = [
 typing-extensions = ">=4.6.0,<4.7.0 || >4.7.0"
 
 [[package]]
+name = "pydub"
+version = "0.25.1"
+description = "Manipulate audio with an simple and easy high level interface"
+optional = false
+python-versions = "*"
+files = [
+    {file = "pydub-0.25.1-py2.py3-none-any.whl", hash = "sha256:65617e33033874b59d87db603aa1ed450633288aefead953b30bded59cb599a6"},
+    {file = "pydub-0.25.1.tar.gz", hash = "sha256:980a33ce9949cab2a569606b65674d748ecbca4f0796887fd6f46173a7b0d30f"},
+]
+
+[[package]]
 name = "pygtrie"
 version = "2.5.0"
 description = "A pure Python trie data structure implementation."
@@ -3900,4 +3911,4 @@ cuda = ["torch", "torchaudio"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9,<3.12"
-content-hash = "f06681aa853bd182c27abb06567bda5cf1da4c275fa417d360de7a0cb1891acf"
+content-hash = "c1f1e078146b79bdb0dca59ca2388bf253f824a2fd39b83def04eda6ef3b4596"
