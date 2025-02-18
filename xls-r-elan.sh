@@ -5,7 +5,7 @@
 
 # Change the environment variable below to the location of the ffmpeg
 # in your system.
-export FFMPEG_DIR="/afs/crc.nd.edu/user/c/ctaguchi/bin/ffmpeg"
+export FFMPEG_DIR="/opt/homebrew/bin/ffmpeg"
 
 export LC_ALL="en_US.UTF-8"
 export PYTHONIOENCODING="utf-8"
