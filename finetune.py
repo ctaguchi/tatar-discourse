@@ -332,7 +332,7 @@ def load_test(dataset: str,
               cache_dir: str,
               download_mode: bool,
               streaming: bool,
-              hf_token: Optional[str]) -> Dataset:
+              token: Optional[str]) -> Dataset:
     """Load the test data.
     
     Args:
