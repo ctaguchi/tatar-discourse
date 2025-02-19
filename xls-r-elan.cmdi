@@ -45,13 +45,15 @@
             <input level="basic" type="tier" optional="true"
                 info="Input tier">input_tier</input>
 
-            <textparam level="basic" convoc="Transcribe Retone" 
+            <textparam level="basic" convoc="Transcribe" 
                 default="Transcribe"
-                info="Transcribe from scratch or retone existing text?">mode</textparam>
+                info="Transcribe">mode</textparam>
 
+            <!--
             <input level="basic" type="auxiliary" optional="true"
                 mimetypes="text/*"
                 info="Tsuut'ina text corpus (for word beam search; optional)">corpus</input>
+            -->
 
             <output level="basic" type="tier" optional="false"
                 mimetypes="text/xml"

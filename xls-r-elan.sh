@@ -12,4 +12,5 @@ export PYTHONIOENCODING="utf-8"
 export PATH="$PATH:$FFMPEG_DIR"
 
 # Run
-exec poetry run python elan.py
+source ./.venv/bin/activate
+exec python elan.py
